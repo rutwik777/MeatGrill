@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  font-style: normal;
+  /* font-family: "Cinzel Decorative", serif; */
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(253, 249, 248);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(221, 172, 166);
+  border: 3px solid rgb(221, 172, 166);
+}

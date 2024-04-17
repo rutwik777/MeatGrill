@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.team .teamCont {
+  height: max-content;
+  width: 100%;
+}
+.team .teamCont .img-back-team {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-top: -3px;
+}
+
+.team .teamCont .overlay {
+  position: absolute;
+  top: 205vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+.team .teamCont .overlay1 {
+  position: absolute;
+  top: 205vh;
+  left: 0;
+  width: 100%;
+  height: 0.5vh;
+  background-image: linear-gradient(
+    234deg,
+    #8147965d,
+    #0a6fe242 59%,
+    #8147964c 86%
+  );
+}
+.team .teamCont .teamCont-content {
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  position: absolute;
+  top: 205vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.team .teamCont .teamCont-content .teamCont-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* width: 23vw; */
+  padding-top: 15px;
+}
+.team .teamCont .teamCont-content .teamCont-heading .teamCont-heading-top {
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.team .teamCont .teamCont-content .teamCont-heading .teamCont-heading-bottom {
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+/* Style for image-card */
+
+.teamCont-content .teamCont-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  padding-top: 15px;
+  margin-top: 100px;
+}
+.teamCont-content .teamCont-card .card-team {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.teamCont-content .teamCont-card .card-team .img-hovered {
+  width: 200px;
+  height: 225px;
+  background-color: black;
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #3a233f,
+    transparent 200px
+  );
+  object-fit: cover;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.teamCont-content .teamCont-card .card-team .img-hovered .img-hovered-up {
+  font-size: 20px;
+  color: gray;
+  line-height: initial;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.teamCont-content .teamCont-card .card-team .img-hovered .img-hovered-down {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.teamCont-content .teamCont-card .card-team .img-hovered .img-hovered-down button:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+.twitter :hover {
+  opacity: 0.7;
+}
+.linkedin:hover {
+  opacity: 0.7;
+}
+.github:hover {
+  opacity: 0.7;
+}
+.teamCont-card .e-card {
+  background-color: black;
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #3a233f,
+    transparent 200px
+  );
+  /* padding-left: 20px; */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px #888888;
+}
+.teamCont-card .e-card:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.e-card .e-card-content {
+  font-size: 20px;
+  color: gray;
+  line-height: initial;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  margin-top: 5px;
+}
+
+.e-card .e-card-separator {
+  padding-bottom: 30px;
+}
+.e-card .e-card-image {
+  /* background-image: url(images.png); */
+  /* background-color: #eee; */
+  /* height: 160px; */
+  width: 100%;
+  border-radius: 8px;
+}
+.e-card .e-card-image {
+  height: 200px;
+  width: 200px;
+}
+.e-card .e-card-image .e-card-class {
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.e-card .e-card-header .e-card-header-caption .e-card-sub-title {
+  font-size: 20px;
+  font-variant: all-petite-caps;
+}
+.e-card .e-card-actions .e-card-btn {
+  padding-left: 20px;
+  background-color: wheat;
+}
+.e-card .e-card-horizontal {
+  margin: auto;
+  width: inherit;
+}
+.e-card .e-card-horizontal .e-card-stacked {
+  justify-content: flex-start;
+  margin: initial;
+}
